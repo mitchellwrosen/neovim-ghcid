@@ -37,3 +37,20 @@ also a lot simpler.
 
   ':GhcidKill' kills the ghcid job.
 
+. Options
+
+  * g:ghcid_lines 
+    * Height of ghcid buffer
+    * Default: 10
+  * g:ghcid_keep_open
+    * Keep the ghcid buffer open when there are no errors/warnings
+    * Default: 0
+  * g:ghcid_command
+    * The command to run
+    * Default: ghcid
+  * ghcid_signcolumn
+    * Behavior of the sign column
+      * 0: Never
+      * 1: Always
+      * 2: Only when there are errors/warnings
+    * Default: 2
